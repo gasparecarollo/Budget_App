@@ -67,7 +67,7 @@ if(transactionArray && transactionArray.length > 0) {
     res.send(transactionArray)
 }
     } else {
-        res.status(404.send({message: "Transactions were not found"}))
+        res.status(404).send({message: "Transactions were not found"}))
     }
 }
     catch(error) {

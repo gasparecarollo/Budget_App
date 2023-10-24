@@ -31,7 +31,7 @@ module.exports = [
     {
         id: 1155,
         item_name: "Savings",
-        amount: -100,
+        amount: 5000,
         date: "April 1, 2023",
         from: "BankAccount"
     },
